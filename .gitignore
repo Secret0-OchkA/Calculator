@@ -1,0 +1,362 @@
+## Игнорировать временные файлы Visual Studio, результаты сборки и
+## файлы, созданные популярными надстройками Visual Studio.
+##
+## Получить последнюю информацию от https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
+# Пользовательские файлы
+*. rsuser
+*.suo
+*.пользователь
+*. userosscache
+*.sln.docstates
+
+# Пользовательские файлы (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Моно автоматически генерируемые файлы
+mono_crash.*
+
+# Результаты сборки
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Мм]/
+[Aa][Rr][Мм]64/
+bld/
+[Bb]in/
+[ОО]Би Джей/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+.против/
+# Раскомментируйте, если у вас есть задачи, которые создают статические файлы проекта в wwwroot
+#wwwroot/
+
+# Автоматически сгенерированные файлы Visual Studio 2017
+Сгенерированные\ Файлы/
+
+# Результаты теста MSTest
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Нунит
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Построить результаты проекта ATL
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Результаты Бенчмарка
+Бенчмаркдотнет.Артефакты/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+артефакты/
+
+# ASP.NET строительные леса
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Файлы, созданные Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.мета
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.журнал регистрации
+*.vspscc
+*.vssscc
+.строит
+*.pidb
+*.svclog
+*.scc
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Профилировщик Visual Studio
+*.psess
+*.ВСП
+*.vspx
+*.sap
+
+# Файлы Трассировки Visual Studio
+*.e2e
+
+# Локальное рабочее пространство TFS 2012
+$tf/
+
+# Инструментарий Автоматизации Руководства
+*.gpState
+
+# ReSharper-это надстройка для кодирования .NET
+_решарпер*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# TeamCity-это надстройка для сборки
+_TeamCity*
+
+# DotCover-это инструмент покрытия кода
+*.dotCover
+
+# AxoCover-это инструмент покрытия кода
+аксоковер /*
+!.axoCover/settings.json
+
+# Coverlet-это бесплатный кросс-платформенный инструмент покрытия кода
+покрытие*.json
+охват*.xml
+покрытие*.info
+
+# Результаты покрытия кода Visual Studio
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MightyMoose
+*.мм.*
+AutoTest.Net/
+
+# Web workbench (sass)
+.sass-кэш/
+
+# Выходная папка Installshield
+[Ee]xpress/
+
+# DocProject-это надстройка генератора документации
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Каталог Click-Once
+опубликовать/
+
+# Публикация Веб-Вывода
+*.[Pp]ublish.xml
+*.azurePubxml
+# Примечание: прокомментируйте следующую строку, если вы хотите проверить настройки веб-развертывания,
+# но строки подключения к базе данных (с потенциальными паролями) будут незашифрованы
+*.pubxml
+*.publishproj
+
+# Параметры публикации веб-приложения Microsoft Azure. Прокомментируйте следующую строку, если хотите
+# проверка параметров публикации веб-приложения Azure, но конфиденциальной информации, содержащейся в нем
+# в этих сценариях будут незашифрованные
+PublishScripts/
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Вывод Сборки Microsoft Azure
+csx/
+*.build.csdef
+
+# Эмулятор Microsoft Azure
+ecf/
+РКФ/
+
+# Каталоги и файлы пакетов приложений Магазина Windows Store
+AppPackages/
+BundleArtifacts/
+Пакет.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+*.appxbundle
+*.appxupload
+
+# Файлы кэша Visual Studio
+# файлы, заканчивающиеся на .cache, можно игнорировать
+*.[Cc]боль
+# но следите за каталогами, заканчивающимися на .cache
+!?*.[Cc]боль/
+
+# Другие
+Клиентская база/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+
+# Включение файлов со строгими именами может представлять угрозу безопасности.
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+#*.snk
+
+# Since there are multiple workflows, uncomment next line to ignore bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# Backup & report files from converting an old project file
+# to a newer Visual Studio version. Backup files are not needed,
+# because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+*.rptproj.bak
+
+# Файлы SQL Server
+*.МДФ
+*.ldf
+*.НДФ
+
+# Проекты бизнес-аналитики
+*.rdl.data
+*.bim.макет
+*.bim_*.настройки
+*.rptproj.rsuser
+*- [Bb]ackup.rdl
+*- [Bb]ackup ([0-9]).rdl
+*- [Bb]ackup ([0-9][0-9]).rdl
+
+# Подделки Microsoft
+Фальшивые сборки/
+
+# Файл настройки плагина GhostDoc
+*.GhostDoc.xml
+
+# Node.js инструменты для Visual Studio
+.ntvs_analysis.dat
+node_modules/
+
+# Журнал сборки Visual Studio 6
+*.plg
+
+# Файл параметров рабочей области Visual Studio 6
+*.опт
+
+# Visual Studio 6 автоматически сгенерированный файл рабочей области (содержит, какие файлы были открыты и т. д.)
+*.vbw
+
+# Вывод сборки Visual Studio LightSwitch
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+_Pvt_Extensions
+
+# Paket dependency manager
+.paket/paket.exe
+paket-files/
+
+# FAKE - F# Make
+.fake/
+
+# CodeRush personal settings
+.cr/personal
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Cake - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# Telerik's JustMock configuration file
+*.jmconfig
+
+# BizTalk build output
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+# Результаты анализа пользовательского интерфейса OpenCover
+OpenCover/
+
+# Вывод локального запуска Azure Stream Analytics
+Асалокалрун/
+
+# MSBuild двоичный и структурированный журнал
+*.binlog
+
+# Файл конфигурации отладчика графического процессора NVidia Nsight
+*.nvuser
+
+# MFractors (Xamarin productivity tool) Рабочая папка
+.мфрактор/
+
+# Локальная история для Visual Studio
+местная история/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Папка резервного копирования для инструмента преобразования ссылок на пакеты в Visual Studio 2017
+MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) Рабочая папка
+ионид/
+
+# Fody - автоматически сгенерированная XML-схема
+FodyWeavers.xsd
